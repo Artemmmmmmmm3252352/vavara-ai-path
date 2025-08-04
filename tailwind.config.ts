@@ -61,7 +61,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SUR Universe colors
+				gold: {
+					primary: 'hsl(var(--gold-primary))',
+					light: 'hsl(var(--gold-light))',
+					dark: 'hsl(var(--gold-dark))'
+				},
+				mystical: {
+					dark: 'hsl(var(--mystical-dark))',
+					medium: 'hsl(var(--mystical-medium))',
+					light: 'hsl(var(--mystical-light))'
 				}
+			},
+			backgroundImage: {
+				'gradient-cosmic': 'var(--gradient-cosmic)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-mystical': 'var(--gradient-mystical)'
+			},
+			boxShadow: {
+				'gold': 'var(--shadow-gold)',
+				'mystical': 'var(--shadow-mystical)'
+			},
+			transitionTimingFunction: {
+				'mystical': 'var(--transition-mystical)',
+				'gold': 'var(--transition-gold)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

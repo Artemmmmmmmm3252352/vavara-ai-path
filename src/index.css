@@ -2,41 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* SUR Universe Design System - Metaphysical & Spiritual */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark mystical background */
+    --background: 220 15% 8%;
+    --foreground: 45 100% 85%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Card system */
+    --card: 220 15% 12%;
+    --card-foreground: 45 100% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 15% 12%;
+    --popover-foreground: 45 100% 90%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Golden primary system */
+    --primary: 45 100% 70%;
+    --primary-foreground: 220 15% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Subtle secondary */
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 45 80% 80%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted tones */
+    --muted: 220 15% 15%;
+    --muted-foreground: 45 30% 60%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent gold */
+    --accent: 45 100% 65%;
+    --accent-foreground: 220 15% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 45 100% 90%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 15% 20%;
+    --input: 220 15% 18%;
+    --ring: 45 100% 70%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* SUR Universe specific colors */
+    --gold-primary: 45 100% 70%;
+    --gold-light: 50 100% 80%;
+    --gold-dark: 40 90% 60%;
+    
+    --mystical-dark: 220 15% 8%;
+    --mystical-medium: 220 15% 12%;
+    --mystical-light: 220 15% 18%;
+    
+    /* Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(220 15% 8%) 0%, hsl(240 20% 15%) 50%, hsl(220 15% 8%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(45 100% 70%) 0%, hsl(50 100% 80%) 50%, hsl(40 90% 60%) 100%);
+    --gradient-mystical: linear-gradient(180deg, hsl(220 15% 8%) 0%, hsl(220 15% 12%) 100%);
+    
+    /* Shadows */
+    --shadow-gold: 0 10px 30px -10px hsl(45 100% 70% / 0.3);
+    --shadow-mystical: 0 20px 40px -10px hsl(220 15% 8% / 0.5);
+    
+    /* Animations */
+    --transition-mystical: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-gold: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     --sidebar-background: 0 0% 98%;
 

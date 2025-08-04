@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // SUR Universe variants
+        cosmic: "bg-gradient-cosmic text-foreground border border-gold-primary/30 hover:border-gold-primary/60 shadow-mystical transition-mystical",
+        golden: "bg-gradient-gold text-mystical-dark font-semibold hover:shadow-gold transition-gold",
+        mystical: "bg-mystical-medium text-gold-primary border border-gold-primary/40 hover:bg-mystical-light hover:shadow-gold transition-mystical",
+        ethereal: "bg-background/10 backdrop-blur-sm text-foreground border border-gold-primary/20 hover:border-gold-primary/50 hover:bg-background/20 transition-mystical"
       },
       size: {
         default: "h-10 px-4 py-2",
